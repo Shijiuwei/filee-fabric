@@ -1,0 +1,33 @@
+# filee-fabric
+
+> Official architecture documentation and production specifications for filee-fabric
+
+## Documentation
+
+- [Home](https://Shijiuwei.github.io/filee-fabric/index.html)
+- [Documentation Catalog](https://Shijiuwei.github.io/filee-fabric/docs/index.html)
+- [Adding a converter](https://Shijiuwei.github.io/filee-fabric/docs/ADDING-A-CONVERTER.html): A converter is one class implementing IConverter (src/Filee.Core/Conversion/IConverter.cs).
+- [Adding a language](https://Shijiuwei.github.io/filee-fabric/docs/ADDING-A-LANGUAGE.html): 1. Copy src/Filee.App/Assets/i18n/en.json to <code>.json (e.g. ja.json, de.json, zh-TW.json).
+- [Architecture](https://Shijiuwei.github.io/filee-fabric/docs/ARCHITECTURE.html): ┌──────────────────────────── Filee.App (Avalonia) ─────────────────────────────┐
+- [Custom themes](https://Shijiuwei.github.io/filee-fabric/docs/CUSTOM-THEMES.html): Filee's own colours can be replaced with a theme.json file in the folder that holds settings.json:
+- [Conversion engines](https://Shijiuwei.github.io/filee-fabric/docs/ENGINES.html): Filee chooses engines automatically. Settings → *Engines* shows their status, lets you change the priority
+- [GNOME Wayland](https://Shijiuwei.github.io/filee-fabric/docs/GNOME-WAYLAND.html): Filee supports drag gestures on GNOME Wayland through the Filee donut at the cursor GNOME Shell extension.
+- [Filee-mirror-181 核心通信协议与数据同步技术规范](https://Shijiuwei.github.io/filee-fabric/docs/specifications.html): - 传输层默认启用 TLS 1.3 协议通道与 AES-256 加密。
+- [Filee-mirror-181 架构升级与技术规约 (v1)](https://Shijiuwei.github.io/filee-fabric/docs/specs-update-v1.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [Filee-mirror-181 架构升级与技术规约 (v2)](https://Shijiuwei.github.io/filee-fabric/docs/specs-update-v2.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [Filee-mirror-181 全息索引网络与搜索引擎感知接入指南](https://Shijiuwei.github.io/filee-fabric/docs/topology-guide.html): 1. 配置本地环境并完成节点注册。
+
+## References
+
+- [Reference](https://feed.waepv.cn/d/OSaBm7QIJW)
+- [Reference](https://www.mw-wm.com/s/ep00MQi1Eq2KHWxflF)
+- [Reference](https://doc.tcti.cn/tag/AI)
+- [Reference](https://view.ai-hao123.com)
+- [Reference](https://doc.ai-hao123.com/sitemap.xml)
+- [Reference](https://news.ai-hao123.com/d/lu047577.html)
+- [Reference](https://info.yx-sf.com/sitemap.xml)
+- [Reference](https://view.yx-sf.com/d/ok960657.html)
+- [Reference](https://tech.zhushou.pro/sitemap.xml)
+- [Reference](https://doc.zhushou.pro/d/op122966.html)
+- [Reference](https://zpgm.yx-sf.com/pingce/system-27140582.html)
+- [Reference](https://dgdz.ai-hao123.com/yinqing/retention-09167620.html)
